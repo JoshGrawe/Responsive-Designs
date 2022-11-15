@@ -1,0 +1,60 @@
+body{
+
+font-family: 'Space Mono', monospace;
+}
+
+main{
+    display: flex;
+    top: 50%;
+    left: 50%;
+    position: absolute;
+    transform: translate(-50%,-50%);
+}
+
+img{
+    height: 25rem;
+    width: 30rem;
+    left: 5rem;
+    top: 16rem;
+    border-radius: 0px;
+    margin-right: 5rem;
+    
+}
+
+
+
+button{
+    color: white;
+    padding: 1rem;
+    background-color: black;
+    font-weight: bold;
+}
+
+h2{
+   
+}
+
+@media only screen and (max-width: 600px) {
+    body {
+        font-size: 10px!important; 
+    }
+    img{
+        width: 200px;
+        height: 200px;
+        margin-right: 2rem;
+    }
+    button{
+        padding: 0.5rem;
+        
+    }
+    .container{
+        padding-right: 2.2rem;
+    }
+  }
+
+#not-found {
+    position: relative;
+    left: 10%;
+    top: 1.5rem;
+    font-size: 1rem;
+}
